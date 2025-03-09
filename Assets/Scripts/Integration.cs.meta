@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b9bd8b90035c54a4193f53ecf094f8cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gazeCube: {fileID: 4645878749314865376, guid: e0dbfa6b80897c044888e4fa830c5d61, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
