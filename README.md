@@ -14,6 +14,7 @@ Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 * Google MediaPipe
 
 ### ✳ Features
+* 視線を基に3次元カーソルの移動範囲を限定
 * 中指~小指で深さ調節、ピンチ動作で選択確定
 * (MediaPipe基準)0番ランドマークの相対移動で位置操作
 * カーソルが触れると緑色、ピンチ動作をすると青色でマテリアル変化
