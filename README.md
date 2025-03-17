@@ -1,6 +1,8 @@
 # (開発中) Gaze based Bare Hand Controller
 Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 
+3D環境における深度認識を向上させる視線ベースの素手コントローラ
+
 ### ✳ Introduction
 
 3次元環境におけるオブジェクトの選択方法は、大きく「グリッドベース」と「メニューベース」の2種類に分類されます。グリッドベースの方法は、深度認識の不足により操作性が低下する一方で、メニューベースの方法は、オブジェクトを人為的に整列し、選択手続きを追加する必要があるという課題があります。
