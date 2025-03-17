@@ -6,7 +6,14 @@ Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 
 ### ✳ Introduction
 
+3次元環境におけるオブジェクトの選択方法は、大きく「グリッドベース」と「メニューベース」の2種類に分類される。
+
+グリッドベースの方法は、奥行き認識の不足により操作性が低下する一方で、メニューベースの方法は、オブジェクトを人為的に整列し、選択手続きを追加する必要があるという課題がある。
+
+本プロジェクトでは、グリッドベースの方法を採用し、視線を活用することで奥行き認識の不足を補い、素手で直感的に操作できるシステムを設計する。
+
 ### ✳ Environment
+* Unity 2021.3.7f1
 * Tobii Eye Tracker 5
 * Web camera
 
