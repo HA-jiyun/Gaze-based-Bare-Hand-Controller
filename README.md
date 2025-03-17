@@ -31,3 +31,17 @@ Unity上のワールド座標とスクリーン座標の違いを理解し、3�
 ### ✳ Sample Scene
 
 ![Image](https://github.com/user-attachments/assets/3a96bd56-f489-4a31-92b9-50b8d13f7fd6)
+
+### ✳ References
+CVZone 3D Hand Tracking
+https://www.computervision.zone/courses/3d-hand-tracking/
+
+Flappy Bird
+https://github.com/limgm/flappy-mediapipe
+
+Poisson Disk Sampling for 3D
+https://gist.github.com/hiroakioishi/382a6ecbf741c5e0d463
+
+1 Euro Filter
+https://gery.casiez.net/1euro/
+
