@@ -44,22 +44,22 @@ public class HandTracking : MonoBehaviour
             angleLandmarks.Add(new Vector3(x, y, z));
         }
 
-        // 평균각도 계산, 추후 개선..?ㅎㅎ
-        for (int i = 0; i < 3; i++) // outofrange 방지
+        // avoid outofrange
+        for (int i = 0; i < 3; i++)
         {
             Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
             Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i+1]] - angleLandmarks[b[i+1]]);
             float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
             angles.Add(angle);
         }
-        for (int i = 4; i < 7; i++) // outofrange 방지
+        for (int i = 4; i < 7; i++)
         {
             Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
             Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i + 1]] - angleLandmarks[b[i + 1]]);
             float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
             angles.Add(angle);
         }
-        for (int i = 8; i < 11; i++) // outofrange 방지
+        for (int i = 8; i < 11; i++)
         {
             Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
             Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i + 1]] - angleLandmarks[b[i + 1]]);
