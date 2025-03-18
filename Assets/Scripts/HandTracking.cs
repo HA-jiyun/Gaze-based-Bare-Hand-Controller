@@ -47,30 +47,29 @@ public class HandTracking : MonoBehaviour
         // avoid outofrange
         for (int i = 0; i < 3; i++)
         {
-            Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
-            Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i+1]] - angleLandmarks[b[i+1]]);
-            float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
-            angles.Add(angle);
+            addAngle(angleLandmarks, i, angles);
         }
         for (int i = 4; i < 7; i++)
         {
-            Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
-            Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i + 1]] - angleLandmarks[b[i + 1]]);
-            float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
-            angles.Add(angle);
+            addAngle(angleLandmarks, i, angles);
         }
         for (int i = 8; i < 11; i++)
         {
-            Vector3 vec1 = Vector3.Normalize(angleLandmarks[a[i]] - angleLandmarks[b[i]]);
-            Vector3 vec2 = Vector3.Normalize(angleLandmarks[a[i + 1]] - angleLandmarks[b[i + 1]]);
-            float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
-            angles.Add(angle);
+            addAngle(angleLandmarks, i, angles);
         }
 
         avgAngle = calculateAvg(angles);
         landmarkZero = handPoints[0].GetComponent<Transform>().position;
         pinch = pinchConfirm(handPoints[4].transform.localPosition, handPoints[8].transform.localPosition);
 
+    }
+
+    void addAngle(List<Vector3> angleLm, int idx, List<float> anglesList)
+    {
+        Vector3 vec1 = Vector3.Normalize(angleLm[a[idx]] - angleLm[b[idx]]);
+        Vector3 vec2 = Vector3.Normalize(angleLm[a[idx + 1]] - angleLm[b[idx + 1]]);
+        float angle = Mathf.Acos(Vector3.Dot(vec1, vec2)) * Mathf.Rad2Deg;
+        anglesList.Add(angle);
     }
 
     float calculateAvg(List<float> anglesList)
