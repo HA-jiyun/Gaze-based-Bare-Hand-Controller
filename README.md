@@ -1,4 +1,4 @@
-# (開発中) Gaze based Bare Hand Controller
+# Gaze based Bare Hand Controller
 Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 
 3D環境における深度認識を向上させる視線ベースの素手コントローラ
