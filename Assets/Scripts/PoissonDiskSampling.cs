@@ -17,7 +17,7 @@ using UnityEngine;
 public class PoissonDiskSampling
 {
 
-	private const int k = 30;  // Maximum number of attempts before marking a sample as inactive.
+	private const int k = 100;  // Maximum number of attempts before marking a sample as inactive.
 
 	private readonly Vector3 cube;
 	private readonly float radius2;  // radius squared

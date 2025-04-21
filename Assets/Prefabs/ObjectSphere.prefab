@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 517399837409832212}
   - component: {fileID: 664731543638983315}
   - component: {fileID: 6855163275199019152}
+  - component: {fileID: 1979903901539050438}
   m_Layer: 0
   m_Name: ObjectSphere
   m_TagString: Object
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4062914173077906403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.92173, y: 1.7357744, z: 1.1854827}
+  m_LocalPosition: {x: 15.564914, y: 4.070628, z: 16.994001}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,3 +98,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.6
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1979903901539050438
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4062914173077906403}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

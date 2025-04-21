@@ -68,7 +68,6 @@ public class CursorController : MonoBehaviour
             clearHighlight();
         }
     }
-    
 
     void addHighlight(Transform obj)
     {

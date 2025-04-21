@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 86507055790826581}
   - component: {fileID: 4110828107173002841}
   - component: {fileID: 4555841301354564280}
-  - component: {fileID: 5285149927995207327}
+  - component: {fileID: -2568304322944784862}
+  - component: {fileID: 9083078388449782439}
   m_Layer: 2
   m_Name: handCursor
   m_TagString: Untagged
@@ -84,16 +85,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &5285149927995207327
-SphereCollider:
+--- !u!136 &-2568304322944784862
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6089701152084945990}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 10
+  m_Height: 100
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: -50}
+--- !u!114 &9083078388449782439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089701152084945990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17b7b3b06e8665429398883eaf79f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  occlusionMaterial: {fileID: 2100000, guid: 475effce86f59d24891339cc1a2e9a89, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 57236b648ceda0e468ada21452cd55a6, type: 2}
