@@ -48,7 +48,7 @@ Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 
 ### ✳ Sample Scene
 
-![Image](https://github.com/user-attachments/assets/de72078c-c69d-4d36-b731-10b46ec0b858)
+![Image](https://github.com/user-attachments/assets/a34fef4a-0b21-45bb-935d-35581db12d4c)
 
 ![Image](https://github.com/user-attachments/assets/36aac3a4-63e6-49d1-9a68-2909c316f620)
 
