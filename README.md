@@ -48,7 +48,7 @@ Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 
 ### ✳ Sample Scene
 
-![Image](https://github.com/user-attachments/assets/3a96bd56-f489-4a31-92b9-50b8d13f7fd6)
+![Image](https://github.com/user-attachments/assets/36aac3a4-63e6-49d1-9a68-2909c316f620)
 
 ### ✳ References
 CVZone 3D Hand Tracking
