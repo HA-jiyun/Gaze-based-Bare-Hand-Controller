@@ -6,6 +6,7 @@ Gaze Based Bare-Hand Controller for Better Depth Recognition in 3D Environment
 <details>
   <summary>🇰🇷 한국어 (Korean)</summary>
   <br>
+  
   ### ✳ Title
   3차원 환경에서 개선된 오브젝트 선택을 위한 시선 기반 맨손 컨트롤러
 
